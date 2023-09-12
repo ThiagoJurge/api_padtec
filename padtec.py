@@ -3,9 +3,9 @@ import re
 
 class Padtec():
     def __init__(self):
-        self.url = 'http://10.33.14.134'
-        self.username = 'noc-arc'
-        self.password = 'noc@altarede'
+        self.url = 'URL padtec'
+        self.username = 'username'
+        self.password = 'password'
         self.headers = {"Authorization": self.__getToken()}
 
     def __getToken(self):
